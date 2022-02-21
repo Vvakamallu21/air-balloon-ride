@@ -5,10 +5,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     
     <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
 
     <!--Add your Firsebase Config here below. -->
-    const firebaseConfig = {
+    <script> var firebaseConfig = {
       apiKey: "AIzaSyD2LnoLH_i6v31Kxki1ulo5kVjVY5q3YcI",
       authDomain: "airballonride-7e1c5.firebaseapp.com",
       databaseURL: "https://airballonride-7e1c5-default-rtdb.firebaseio.com",
@@ -18,6 +19,8 @@
       appId: "1:222416432091:web:5c0a9a19df29dde11d95fe",
       measurementId: "G-94FK12NW2X"
     };
+    firebase.initializeApp(firebaseConfig)
+     </script>
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="utf-8">
